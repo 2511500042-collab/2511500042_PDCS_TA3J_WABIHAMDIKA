@@ -22,5 +22,17 @@
         "nim": "202323234",
         "nama": "Siapa",
         "jurusan": "Teknik informatika"
+    },
+    {
+        "id": 5,
+        "nim": "2511500042",
+        "nama": "wabi hamdika",
+        "jurusan": "Teknik informatika"
+    },
+    {
+        "id": 6,
+        "nim": "2511500042",
+        "nama": "wabi hamdika",
+        "jurusan": "Teknik informatika"
     }
 ]
