@@ -139,8 +139,11 @@ if (isset($_GET['page']) || isset($_GET['limit'])) {
         break; 
     default:
         sendResponse(false, "method tidak diijinkan", null, 405);
+        break;
 
 }
+
+die;
 
 
 // GET ny ID 

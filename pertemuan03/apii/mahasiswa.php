@@ -3,20 +3,6 @@
 require_once __DIR__ . "/../config.php";
 require_once __DIR__ . "/../helpers/response.php";
 
-$method = $_SERVER['REQUEST_METHOD'];
-
-switch ($method) {
-    case 'GET':
-        echo "ini method GET";
-        break;
-    case 'POST':
-        echo "ini method POST";
-        break; 
-    default:
-        sendResponse(false, "method tidak diijinkan", null, 405);
-
-}
-
 
 // GET ny ID 
 if (isset($_GET['id'])) {
